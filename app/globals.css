@@ -22,6 +22,9 @@
   color: white;
 }
 
+.cl-button__github {
+  filter: invert(1);
+}
 .str-video__menu-container {
   color: white;
 }
