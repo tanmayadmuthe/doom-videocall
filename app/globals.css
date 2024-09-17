@@ -2,23 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-/* =============================== */
-
-@layer utilities {
-  .flex-center {
-    @apply flex justify-center items-center;
-  }
-
-  .flex-between {
-    @apply flex justify-between items-center;
-  }
 }
 
 /* ======== stream css overrides ======== */
@@ -68,10 +55,6 @@
 
 /* ==== clerk class override ===== */
 
-.cl-providerIcon__github{
-  filter: invert(1);
-}
-
 .cl-userButtonPopoverActionButtonIcon {
   color: white;
 }
@@ -95,7 +78,17 @@
   color: white;
 }
 
+/* =============================== */
 
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+}
 
 /* animation */
 
